@@ -1,0 +1,12 @@
+.parent{
+    height: 100%;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.text {
+    grid-column: 1 / 4;
+}
+.wrap-present{
+    grid-column: 2/2;
+}
